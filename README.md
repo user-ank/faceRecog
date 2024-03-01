@@ -6,8 +6,9 @@ Project that detect and recognizes faces after providing proper training.
 <p>1) You need to set up a MYSQL database which will store student information (This will store details of student against its user_id which will be shown at the time of detection, the training photos of users will be stored in the local machine itself).</p>
 <p>2) Create a database(on mysqlworkbench OR xampp) with name:"face_recognition_system", host:"localhost", username:"root", password:""; Now start the database server.</p>
 <p>3) Import the file named "face_recognition_system.sql" from the project directory. This will create the table for you.</p>
-<p>4) Install all the required dependencies using requirements.txt</p>
-<p>5) After installing, go to main.py and run.</p>
+<p>4) Create an empty folder "data" inside "AI_FaceRecognition" folder.</p>
+<p>5) Install all the required dependencies using requirements.txt</p>
+<p>6) After installing, go to main.py and run.</p>
 <h3>How to use the project:</h3>
 <p>1) A UI window(1st) will open, Click on student detail.</p>
 <p>2) Another window(2nd) will open, fill all the required details and click on save.</p>
